@@ -1,0 +1,16 @@
+<configs>
+<append xpath="/Sounds">
+
+<SoundDataNode name="smash"> 
+	<AudioSource name="Sounds/AudioSource_Interact"/>
+		<Noise ID="5" range="15" volume="100" time="3" muffled_when_crouched="0.5"/>
+		<AudioClip ClipName="#@modfolder:Resources/sounds.unity3d?smash"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.01"/>
+	</SoundDataNode>
+
+</append>
+</configs>
