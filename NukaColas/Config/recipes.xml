@@ -36,6 +36,14 @@
 			<ingredient name="drinkJarBoiledWater" count="1"/>
 		</recipe>
 		
+		<recipe name="Nuka Nade" count="1" craft_area="chemistryStation" craft_exp_gain="75">
+			<ingredient name="Nuka Quantum" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="1"/>
+			<ingredient name="resourceAcid" count="1"/>
+			<ingredient name="resourceGunPowder" count="2"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+		</recipe>
+		
 		
 	</append>
 </configs>

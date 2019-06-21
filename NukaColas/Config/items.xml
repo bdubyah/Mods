@@ -219,14 +219,59 @@
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="CustomIcon" value="medicalAloeCream"/> <property name="CustomIconTint" value="D42F2F"/>
 			<property name="Material" value="Morganic"/>
-			<property name="Stacknumber" value="15"/> <!-- STK medical -->
+			<property name="Stacknumber" value="15"/>
 			<property name="EconomicValue" value="50"/>
 			<property name="CraftingIngredientTime" value="20"/>
 			<property name="Group" value="Science"/>
 			<property name="CraftingSkillGroup" value="craftSkillScience"/>
 			<property name="ActionSkillGroup" value="Medicine"/>
 		</item>
-
+		
+		<item name="Nuka Nade">
+			<property name="Tags" value="weapon,perkExplosiveWeapons"/>
+			<property name="DisplayType" value="ammoGrenade"/>
+			<property name="Class" value="ItemClassTimeBomb"/>
+			<property name="HoldType" value="54"/>
+			<property name="Meshfile" value="#@modfolder:Resources/NukaNade.unity3d?NukaNade.prefab"/>
+			<property name="DropMeshfile" value="#@modfolder:Resources/NukaNade.unity3d?NukaNade.prefab"/>
+			<property name="DropScale" value="2"/>
+			<property name="CustomIcon" value="NukaNade"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="5"/> 
+			<property name="EconomicValue" value="41"/>
+			<property name="Weight" value="0"/>
+			<property name="Explosion.BlockDamage" value="30"/>
+			<property name="Explosion.EntityDamage" value="500"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="4"/>
+			<property name="Explosion.RadiusEntities" value="10"/>
+			<property name="Explosion.DamageBonus.stone" value="0.01"/>
+			<property name="Explosion.DamageBonus.metal" value="0.05"/>
+			<property name="Explosion.DamageBonus.earth" value="0"/> 
+			<property name="Explosion.DamageBonus.wood" value="0.05"/>
+			<property name="Explosion.DamageBonus.water" value="0"/>
+			<property name="Explosion.BlastPower" value="500"/> 
+			<property name="FuseTime" value="5"/> 
+			<property class="Action0">
+				<property name="Class" value="ThrowAway"/>
+				<property name="Delay" value="1.2"/> 
+				<property name="Throw_strength_default" value="15"/>
+				<property name="Throw_strength_max" value="30"/>
+				<property name="Max_strain_time" value="1.0"/>
+				<property name="Sound_start" value="swoosh"/>
+			</property>
+			<property class="Action1"> 
+				<property name="Class" value="Activate"/>
+				<property name="Delay" value="1"/> 
+			</property>
+			<property name="ThrowableDecoy" value="true"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="CraftingSkillGroup" value="craftSkillScience"/>
+			<effect_group tiered="false">
+				<display_value name="ExRadius" value="8" />
+			</effect_group>
+		</item>
+		
 
 	
 	</append>
