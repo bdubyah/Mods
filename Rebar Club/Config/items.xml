@@ -4,7 +4,7 @@
 			<property name="Tags" value="blunt,melee,heavy,sledge,meleeWeapon,perkHeavyMetal,weapon"/>
 			<property name="DisplayType" value="melee"/>
 			<property name="HoldType" value="33"/>
-			<property name="Meshfile" value="#@modfolder:Resources/rebarclub.unity3d?Rebar_Club"/>
+			<property name="Meshfile" value="#@modfolder:Resources/rebarclub.unity3d?Rebar_Club1"/>
 			<property name="Material" value="Mmetal"/>
 			<property name="CustomIcon" value="rebarclubicon"/>
 			<property name="RepairTools" value="resourceForgedIron"/>
