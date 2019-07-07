@@ -1,0 +1,8 @@
+gunPipePistol,items,Gun,New,Pipe Pistol,,,,,
+gunPipePistolDesc,items,Gun,New,Weak homemade pistol. Uses 9mm. Low durability.,,,,,
+gunPipeRifle,items,Gun,New,Pipe Rifle,,,,,
+gunPipeRifleDesc,items,Gun,New,Weak homemade rifle. Uses 9mm. Low durability.,,,,,
+gunRailwayRifle,items,Gun,New,Railway Rifle,,,,,
+gunRailwayRifleDesc,items,Gun,New,Custom made rifle that launches rail spikes. Fairly low durability due to the force of firing it.,,,,,
+ammoRailSpike,items,Gun,New,Rail Spike (Ammo),,,,,
+ammoRailSpikeDesc,items,Gun,New,Normal puny bullets not stopping those pesky zeds? Try these!,,,,,
