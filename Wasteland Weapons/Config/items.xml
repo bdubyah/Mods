@@ -238,11 +238,11 @@
 		<display_value name="dRecoil" value="100" />
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.2"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="0.6"/>
-
+		
 		<passive_effect name="DegradationMax" operation="base_set" value="400"/>
 		<triggered_effect trigger="onProjectileImpact" action="Ragdoll" target="other" duration="2"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" target="self" sound="whistle"/>
-
+		
 	</effect_group>
 </item>
 
@@ -278,6 +278,8 @@
 		<passive_effect name="BlockDamage" operation="base_set" value="25"/>
 		<passive_effect name="DamageModifier" operation="perc_set" value="0.2" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_set" value=".2" tags="earth,metal,cloth"/>
+		<passive_effect name="DismemberChance" operation="base_set" value=".7" tags="head"/>
+		<passive_effect name="DismemberChance" operation="base_set" value="1" tags="leg,arm"/>
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="80"/>
 		<passive_effect name="ProjectileStickChance" operation="base_set" value="1" tags="earth,metal,cloth,stone,wood"/>
 		<passive_effect name="ProjectileStickChance" operation="perc_set" value="0" tags="glass"/>
