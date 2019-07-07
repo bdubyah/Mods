@@ -1,9 +1,10 @@
 <configs>
 	<append xpath="/items">
 	
-		<item name="Nuka Cola">
+		<item name="drinkNukaCola">
 			<property name="HoldType" value="3"/>
 			<property name="DisplayType" value="waterMegaCrush"/>
+			<property name="DescriptionKey" value="drinkNukaColaDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaColaDrink.prefab"/>
 			<property name="DropMeshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaColaDrink.prefab"/>
 			<property name="Material" value="Mglass"/>
@@ -44,9 +45,10 @@
 			</effect_group>
 		</item>
 
-			<item name="Nuka Cherry">
+			<item name="drinkNukaCherry">
 			<property name="HoldType" value="3"/>
 			<property name="DisplayType" value="waterMegaCrush"/>
+			<property name="DescriptionKey" value="drinkNukaCherryDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaCherryDrink.prefab"/>
 			<property name="DropMeshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaCherryDrink.prefab"/>
 			<property name="Material" value="Mglass"/>
@@ -86,9 +88,10 @@
 			</effect_group>
 		</item>
 
-		<item name="Nuka Quantum">
+		<item name="drinkNukaQuantum">
 			<property name="HoldType" value="3"/>
 			<property name="DisplayType" value="waterMegaCrush"/>
+			<property name="DescriptionKey" value="drinkNukaQuantumDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaQuantumDrink.prefab"/>
 			<property name="DropMeshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaQuantumDrink.prefab"/>
 			<property name="Material" value="Mglass"/>
@@ -128,9 +131,10 @@
 			</effect_group>
 		</item>
 
-		<item name="Nuka Quartz">
+		<item name="drinkNukaQuartz">
 			<property name="HoldType" value="3"/>
 			<property name="DisplayType" value="waterMegaCrush"/>
+			<property name="DescriptionKey" value="drinkNukaQuartzDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaQuartzDrink.prefab"/>
 			<property name="DropMeshfile" value="#@modfolder:Resources/NukaColas.unity3d?NukaQuartzDrink.prefab"/>
 			<property name="Material" value="Mglass"/>
@@ -170,9 +174,8 @@
 			</effect_group>
 		</item>
 		
-		<item name="Nuka Recipes">
-			<!-- <property name="DescriptionKey"   value="nukabook_desc"/> -->
-			<property name="Description" value="Learn how to brew your own Nuka!"/>
+		<item name="bookNukaRecipes">
+			<property name="DescriptionKey" value="bookNukaRecipesDesc"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="HoldType" value="21"/>
 			<property name="Meshfile" value="Items/Misc/bookPrefab"/>
@@ -213,8 +216,9 @@
 			</effect_group>
 		</item>
 		
-		<item name="Nuka Base Ingredients">
+		<item name="resourceNukaBaseIngredients">
 			<property name="HoldType" value="45"/>
+			<property name="DescriptionKey" value="resourceNukaBaseIngredientsDesc"/>
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="CustomIcon" value="medicalAloeCream"/> <property name="CustomIconTint" value="D42F2F"/>
@@ -227,9 +231,10 @@
 			<property name="ActionSkillGroup" value="Medicine"/>
 		</item>
 		
-		<item name="Nuka Nade">
+		<item name="thrownNukaNade">
 			<property name="Tags" value="weapon,perkExplosiveWeapons"/>
 			<property name="DisplayType" value="ammoGrenade"/>
+			<property name="DescriptionKey" value="thrownNukaNadeDesc"/>
 			<property name="Class" value="ItemClassTimeBomb"/>
 			<property name="HoldType" value="54"/>
 			<property name="Meshfile" value="#@modfolder:Resources/NukaNade.unity3d?NukaNade.prefab"/>

@@ -2,16 +2,16 @@
 
 	<insertBefore xpath="/traders/trader_item_groups/trader_item_group[@name='modMeleeT1']">
 		<trader_item_group name="NukaQuartz">
-			<item name="Nuka Quartz"/>
+			<item name="drinkNukaQuartz"/>
 		</trader_item_group>
 		<trader_item_group name="NukaQuantum">
-			<item name="Nuka Quantum"/>
+			<item name="drinkNukaQuantum"/>
 		</trader_item_group>
 		<trader_item_group name="NukaCola">
-			<item name="Nuka Cola"/>
+			<item name="drinkNukaCola"/>
 		</trader_item_group>
 		<trader_item_group name="NukaCherry">
-			<item name="Nuka Cherry"/>
+			<item name="drinkNukaCherry"/>
 		</trader_item_group>
 	</insertBefore>	
 			
