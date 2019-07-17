@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/entity_classes">
 
-		<entity_class name="Box Truck Plain">
+		<entity_class name="vehicleBoxTruckPlain">
 			<property name="Tags" value="vehicle"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
@@ -21,7 +21,7 @@
 			<property name="MapIcon" value="ui_game_symbol_4x4"/>
 		</entity_class>
 		
-		<entity_class name="Box Truck Hostess">
+		<entity_class name="vehicleBoxTruckHostess">
 			<property name="Tags" value="vehicle"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
@@ -41,5 +41,5 @@
 			<property name="MapIcon" value="ui_game_symbol_4x4"/>
 		</entity_class>
 		
-	 </append>
+	</append>
 </configs>

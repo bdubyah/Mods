@@ -1,8 +1,9 @@
 <configs>
 	<append xpath="/items">
-		<item name="Banjo">
+		<item name="meleeBanjo">
 			<property name="Tags" value="blunt,melee,heavy,sledge,meleeWeapon,perkHeavyMetal,weapon"/>
 			<property name="DisplayType" value="melee"/>
+			<property name="DescriptionKey" value="meleeBanjoDesc"/>
 			<property name="HoldType" value="33"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Banjo.unity3d?BanjoPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -47,6 +48,7 @@
 				<passive_effect name="HarvestCount" operation="base_set" value="0" tags="allHarvest"/>
 				<passive_effect name="HarvestCount" operation="base_set" value="0" tags="allToolsHarvest"/>
 				<passive_effect name="HarvestCount" operation="base_set" value="0" tags="oreWoodHarvest"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="smash"/>
 			</effect_group>
 			<effect_group name="Power Attack">
 				<passive_effect name="EntityDamage" operation="perc_add" value="1.2" tags="secondary"/>

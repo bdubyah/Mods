@@ -2,7 +2,7 @@
 
 	<append xpath="/vehicles">
 
-		<vehicle name="Box Truck Plain">
+		<vehicle name="vehicleBoxTruckPlain">
 
 			<property name="cameraDistance" value="7.5, 7"/>
 			<property name="cameraTurnRate" value=".2, .35"/>
@@ -170,7 +170,7 @@
 
 		</vehicle>
 		
-		<vehicle name="Box Truck Hostess">
+		<vehicle name="vehicleBoxTruckHostess">
 
 			<property name="cameraDistance" value="7.5, 7"/>
 			<property name="cameraTurnRate" value=".2, .35"/>
@@ -338,6 +338,7 @@
 
 		</vehicle>
 		
+				
 	 </append>
 	  
 </configs>

@@ -3,7 +3,7 @@
 <insertBefore xpath="/lootcontainers/lootgroup[@name='questChallenge']">
 
   	<lootgroup name="Banjo" count="all">
-		<item name="Banjo" count="1"/>
+		<item name="meleeBanjo" count="1"/>
 	</lootgroup>
 
 </insertBefore>

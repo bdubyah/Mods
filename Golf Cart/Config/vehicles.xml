@@ -2,7 +2,7 @@
 
 	<append xpath="/vehicles">
 
-		<vehicle name="Golf Cart">
+		<vehicle name="vehicleGolfCart">
 
 			<property name="cameraDistance" value="7.5, 7"/>
 			<property name="cameraTurnRate" value=".2, .35"/>
@@ -145,7 +145,7 @@
 			</property>
 
 		</vehicle>
-		
+				
 	 </append>
 	  
 </configs>

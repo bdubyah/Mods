@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/entity_classes">
 
-		<entity_class name="Willy Jeep">
+		<entity_class name="vehicleWillyJeep">
 			<property name="Tags" value="vehicle"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
@@ -21,7 +21,7 @@
 			<property name="MapIcon" value="ui_game_symbol_4x4"/>
 		</entity_class>
 		
-		<entity_class name="Willy Jeep Topless">
+		<entity_class name="vehicleWillyJeepTopless">
 			<property name="Tags" value="vehicle"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>
@@ -40,6 +40,6 @@
 			<property name="Faction" value="none"/>
 			<property name="MapIcon" value="ui_game_symbol_4x4"/>
 		</entity_class>
-		
+						
 	 </append>
 </configs>

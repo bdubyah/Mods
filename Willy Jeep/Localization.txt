@@ -1,0 +1,4 @@
+vehicleWillyJeepplaceable,vehicles,item,EnChanged,Willy Jeep,,,,,
+vehicleWillyJeepplaceableDesc,vehicles,item,EnChanged,If it survived WW2 surely it can handle this!,,,,,
+vehicleWillyJeepToplessplaceable,vehicles,item,EnChanged,Willy Jeep Topless,,,,,
+vehicleWillyJeepToplessplaceableDesc,vehicles,item,EnChanged,Now with even more wind-in-hair action!,,,,,

@@ -1,8 +1,9 @@
 <configs>
 	<append xpath="/items">
-		<item name="Rebar Club">
+		<item name="meleeRebarClub">
 			<property name="Tags" value="blunt,melee,heavy,sledge,meleeWeapon,perkHeavyMetal,weapon"/>
 			<property name="DisplayType" value="melee"/>
+			<property name="DescriptionKey" value="meleeRebarClubDesc"/>
 			<property name="HoldType" value="33"/>
 			<property name="Meshfile" value="#@modfolder:Resources/rebarclub.unity3d?Rebar_Club1"/>
 			<property name="Material" value="Mmetal"/>
@@ -39,7 +40,7 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="55"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="75"/>
 				<passive_effect name="AttacksPerMinute" operation="base_set" value="30"/>
-				<passive_effect name="StaminaLoss" operation="base_set" value="45" tags="primary"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="35" tags="primary"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="700,1500" tier="1,6"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		        <passive_effect name="ModPowerBonus" operation="perc_add" value=".07" tags="EntityDamage,BlockDamage"/>
@@ -51,7 +52,7 @@
 			<effect_group name="Power Attack">
 				<passive_effect name="EntityDamage" operation="perc_add" value="1.4" tags="secondary"/>
 				<passive_effect name="BlockDamage" operation="perc_add" value="1.2" tags="secondary"/>
-				<passive_effect name="DismemberChance" operation="base_add" value=".5" tags="secondary"/>
+				<passive_effect name="DismemberChance" operation="base_add" value=".75" tags="secondary"/>
 				<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
 				<passive_effect name="StaminaLoss" operation="base_add" value="75" tags="secondary"/>
 				

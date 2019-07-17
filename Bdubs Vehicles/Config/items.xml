@@ -1,10 +1,10 @@
 <configs>
 	<append xpath="/items">
 
-		<item name="Box Truck Plain">
+		<item name="vehicleBoxTruckPlainplaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="CustomIcon" value="BoxTruckplain"/>
-			<property name="DescriptionKey" value="Tallahassee's Favorite!"/>
+			<property name="DescriptionKey" value="vehicleBoxTruckPlainplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/BoxTruck.unity3d?BoxTruckplain.prefab"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
@@ -16,10 +16,10 @@
 			</effect_group>
 		</item>
 		
-		<item name="Box Truck Hostess">
+		<item name="vehicleBoxTruckHostessplaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="CustomIcon" value="BoxTruckhostess"/>
-			<property name="DescriptionKey" value="Tallahassee's Favorite!"/>
+			<property name="DescriptionKey" value="vehicleBoxTruckHostessplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/BoxTruck.unity3d?BoxTruckhostess.prefab"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
@@ -31,26 +31,28 @@
 			</effect_group>
 		</item>
 		
-		<item name="GNXchassis">
+		<item name="vehicleGNXchassis">
 			<property name="Extends" value="vehicleWheels"/>
 			<property name="CustomIcon" value="GNXchassis"/>
+			<property name="DescriptionKey" value="vehicleGNXchassisDesc"/>
 			<property name="EconomicValue" value="100"/>
 		</item>
 		
-		<item name="GNXaccessories">
+		<item name="vehicleGNXaccessories">
 			<property name="Extends" value="vehicleWheels"/>
 			<property name="CustomIcon" value="GNXchassis"/>
+			<property name="DescriptionKey" value="vehicleGNXaccessoriesDesc"/>
 			<property name="EconomicValue" value="100"/>
 		</item>
 		
-		<item name="GNX Black">
+		<item name="vehicleGNXBlackplaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="CustomIcon" value="GNX"/>
-		<!--	<property name="DescriptionKey" value="..."/> -->
+			<property name="DescriptionKey" value="vehicleGNXBlackplaceableDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/GNX.unity3d?GNXblack.prefab"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
-				<property name="Vehicle" value="GNX Black"/>
+				<property name="Vehicle" value="vehicleGNXBlack"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
 			<effect_group name="Base Effects">
@@ -58,14 +60,14 @@
 			</effect_group>
 		</item>
 		
-		<item name="GNX Red">
+		<item name="vehicleGNXRedplaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="CustomIcon" value="GNXred"/>
-		<!--	<property name="DescriptionKey" value="..."/> -->
+			<property name="DescriptionKey" value="vehicleGNXRedplaceableDesc"/> 
 			<property name="Meshfile" value="#@modfolder:Resources/GNX.unity3d?GNXred.prefab"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
-				<property name="Vehicle" value="GNX Red"/>
+				<property name="Vehicle" value="vehicleGNXRed"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
 			<effect_group name="Base Effects">
@@ -73,22 +75,24 @@
 			</effect_group>
 		</item>
 		
-		<item name="GolfCartchassis">
+		<item name="vehicleGolfCartchassis">
 			<property name="Extends" value="vehicleWheels"/>
 			<property name="CustomIcon" value="GolfCartchassis"/>
+			<property name="DescriptionKey" value="vehicleGolfCartchassisDesc"/> 
 			<property name="EconomicValue" value="100"/>
 		</item>
 
-		<item name="GolfCartaccessories">
+		<item name="vehicleGolfCartaccessories">
 			<property name="Extends" value="vehicleWheels"/>
 			<property name="CustomIcon" value="GolfCartaccessories"/>
+			<property name="DescriptionKey" value="vehicleGolfCartaccessoriesDesc"/> 
 			<property name="EconomicValue" value="100"/>
 		</item>
 
-		<item name="Golf Cart">
+		<item name="vehicleGolfCartplaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="CustomIcon" value="GolfCart"/>
-		<!--	<property name="DescriptionKey" value="..."/> -->
+			<property name="DescriptionKey" value="vehicleGolfCartplaceableDesc"/> 
 			<property name="Meshfile" value="#@modfolder:Resources/GolfCart.unity3d?GolfCart.prefab"/>
 			<property name="EconomicValue" value="1000"/>
 			<property class="Action1">
@@ -100,9 +104,10 @@
 			</effect_group>
 		</item>
 		
-		<item name="Golf Club">
+		<item name="meleeGolfClub">
 			<property name="Tags" value="blunt,melee,heavy,sledge,meleeWeapon,perkHeavyMetal,weapon"/>
 			<property name="DisplayType" value="melee"/>
+			<property name="DescriptionKey" value="meleeGolfClubDesc"/> 
 			<property name="HoldType" value="33"/>
 			<property name="Meshfile" value="#@modfolder:Resources/GolfClub.unity3d?GolfClubprefab.prefab"/>
 			<property name="Material" value="Mmetal"/>
@@ -163,14 +168,43 @@
 			</effect_group>
 		</item>
 		
-		<item name="Willy Jeep">
+		<item name="vehicleMRAPparts">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="MRAPparts"/>
+			<property name="DescriptionKey" value="vehicleMRAPpartsDesc"/>
+			<property name="EconomicValue" value="100"/>
+		</item>
+		
+		<item name="vehicleMRAPaccessories">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="MRAPaccessories"/>
+			<property name="DescriptionKey" value="vehicleMRAPaccessoriesDesc"/>
+			<property name="EconomicValue" value="100"/>
+		</item>
+		
+		<item name="vehicleMRAPplaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="MRAPrusty"/>
+			<property name="DescriptionKey" value="vehicleMRAPplaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/MRAP1.unity3d?MRAPrusty.prefab"/>
+			<property name="EconomicValue" value="10000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleMRAP"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="10000,15000" tier="1,6"/>
+			</effect_group>
+		</item>
+		
+		<item name="vehicleWillyJeepplaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="CustomIcon" value="Willy_Jeep"/>
-		<!--	<property name="DescriptionKey" value="..."/> -->
+			<property name="DescriptionKey" value="vehicleWillyJeepplaceableDesc"/> 
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_Jeep.prefab"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
-				<property name="Vehicle" value="Willy Jeep"/>
+				<property name="Vehicle" value="vehicleWillyJeep"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
 			<effect_group name="Base Effects">
@@ -178,14 +212,14 @@
 			</effect_group>
 		</item>
 		
-		<item name="Willy Jeep Topless">
+		<item name="vehicleWillyJeepToplessplaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="CustomIcon" value="Willy_Jeep"/>
-		<!--	<property name="DescriptionKey" value="..."/> -->
+			<property name="CustomIcon" value="Willy_Jeep_Topless"/>
+			<property name="DescriptionKey" value="vehicleWillyJeepToplessplaceableDesc"/> 
 			<property name="Meshfile" value="#@modfolder:Resources/Willy_Jeeptopless.unity3d?Willy_Jeeptopless.prefab"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
-				<property name="Vehicle" value="Willy Jeep Topless"/>
+				<property name="Vehicle" value="vehicleWillyJeepTopless"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
 			<effect_group name="Base Effects">

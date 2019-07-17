@@ -2,7 +2,7 @@
 
 	<append xpath="/vehicles">
 
-		<vehicle name="Willy Jeep">
+		<vehicle name="vehicleWillyJeep">
 
 			<property name="cameraDistance" value="7.5, 7"/>
 			<property name="cameraTurnRate" value=".2, .35"/>
@@ -164,7 +164,7 @@
 
 		</vehicle>
 		
-		<vehicle name="Willy Jeep Topless">
+		<vehicle name="vehicleWillyJeepTopless">
 
 			<property name="cameraDistance" value="7.5, 7"/>
 			<property name="cameraTurnRate" value=".2, .35"/>

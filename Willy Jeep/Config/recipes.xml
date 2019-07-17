@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/recipes">
 	
-		<recipe name="Willy Jeep" count="1" craft_area="workbench" craft_time="100">
+		<recipe name="vehicleWillyJeepplaceable" count="1" craft_area="workbench" craft_time="100">
 			<ingredient name="vehicleWheels" count="4"/>
 			<ingredient name="vehicle4x4TruckChassis" count="1"/>
 			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
@@ -9,7 +9,7 @@
 	        <ingredient name="carBattery" count="1"/>
 		</recipe>
 		
-		<recipe name="Willy Jeep Topless" count="1" craft_area="workbench" craft_time="100">
+		<recipe name="vehicleWillyJeepToplessplaceable" count="1" craft_area="workbench" craft_time="100">
 			<ingredient name="vehicleWheels" count="4"/>
 			<ingredient name="vehicle4x4TruckChassis" count="1"/>
 			<ingredient name="vehicle4x4TruckAccessories" count="1"/>

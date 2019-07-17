@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/entity_classes">
 
-		<entity_class name="Golf Cart">
+		<entity_class name="vehicleGolfCart">
 			<property name="Tags" value="vehicle"/>
 			<property name="Class" value="EntityVJeep"/>
 			<property name="Parent" value="Cars"/>

@@ -2,7 +2,7 @@
 
 	<append xpath="/vehicles">
 
-		<vehicle name="GNX Black">
+		<vehicle name="vehicleGNXBlack">
 
 			<property name="cameraDistance" value="7.5, 7"/>
 			<property name="cameraTurnRate" value=".2, .35"/>
@@ -164,7 +164,7 @@
 
 		</vehicle>
 		
-		<vehicle name="GNX Red">
+		<vehicle name="vehicleGNXRed">
 
 			<property name="cameraDistance" value="7.5, 7"/>
 			<property name="cameraTurnRate" value=".2, .35"/>
@@ -325,7 +325,7 @@
 			</property>
 
 		</vehicle>
-		
+				
 	 </append>
 	  
 </configs>
