@@ -8,7 +8,7 @@
 			<property name="Meshfile" value="#@modfolder:Resources/BoxTruck.unity3d?BoxTruckplain.prefab"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
-				<property name="Vehicle" value="Box Truck Plain"/>
+				<property name="Vehicle" value="vehicleBoxTruckPlain"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
 			<effect_group name="Base Effects">
@@ -23,7 +23,7 @@
 			<property name="Meshfile" value="#@modfolder:Resources/BoxTruck.unity3d?BoxTruckhostess.prefab"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
-				<property name="Vehicle" value="Box Truck Hostess"/>
+				<property name="Vehicle" value="vehicleBoxTruckHostess"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
 			<effect_group name="Base Effects">
