@@ -22,7 +22,7 @@
 			<property name="Meshfile" value="#@modfolder:Resources/GolfCart.unity3d?GolfCart.prefab"/>
 			<property name="EconomicValue" value="1000"/>
 			<property class="Action1">
-				<property name="Vehicle" value="Golf Cart"/>
+				<property name="Vehicle" value="vehicleGolfCart"/>
 				<property name="VehicleSize" value="4.7, 4.8, 5"/>
 			</property>
 			<effect_group name="Base Effects">
