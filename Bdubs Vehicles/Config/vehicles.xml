@@ -810,7 +810,7 @@
 
 			<property name="cameraDistance" value="7.5, 7"/>
 			<property name="cameraTurnRate" value=".2, .35"/>
-			<property name="motorTorqueMinQ" value="3000"/>
+			<property name="motorTorqueMinQ" value="5000"/>
 			<property name="motorTorqueMaxQ" value="6000"/>
 			<property name="brakeTorque" value="2000"/>
 			<property name="upAngleMax" value="70"/>
@@ -857,7 +857,7 @@
 				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
 				<property name="fuelKmPerL" value=".65"/>
 				<property name="gear1" value="
-									500,2500, -1400,800,0, 20,2200,900,
+									500,2500, -1400,800,0, 150,2200,900,
 								Vehicles/Suv/suv_accel1,
 								Vehicles/Suv/suv_decel1,
 								0, .7, 1, .1, -9, .12, .1, Vehicles/Suv/suv_idle_lp,
