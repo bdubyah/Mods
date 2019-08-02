@@ -10,7 +10,7 @@
 			<property name="OnlySimpleRotations" value="true"/>
 			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 			<property name="CustomIcon" value="" />
-			<property name="CanPickup" value="true" param1="Nuka Cola"/>
+			<property name="CanPickup" value="true" param1="drinkNukaCola"/>
 			<property name="Stabilitysupport" value="true"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Stacknumber" value="10"/>
@@ -30,7 +30,7 @@
 			<property name="OnlySimpleRotations" value="true"/>
 			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 			<property name="CustomIcon" value="" />
-			<property name="CanPickup" value="true" param1="Nuka Quantum"/>
+			<property name="CanPickup" value="true" param1="drinkNukaQuantum"/>
 			<property name="Stabilitysupport" value="true"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Stacknumber" value="10"/>
@@ -50,7 +50,7 @@
 			<property name="OnlySimpleRotations" value="true"/>
 			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 			<property name="CustomIcon" value="" />
-			<property name="CanPickup" value="true" param1="Nuka Quartz"/>
+			<property name="CanPickup" value="true" param1="drinkNukaQuartz"/>
 			<property name="Stabilitysupport" value="true"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Stacknumber" value="10"/>
@@ -70,7 +70,7 @@
 			<property name="OnlySimpleRotations" value="true"/>
 			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 			<property name="CustomIcon" value="" />
-			<property name="CanPickup" value="true" param1="Nuka Cherry"/>
+			<property name="CanPickup" value="true" param1="drinkNukaCherry"/>
 			<property name="Stabilitysupport" value="true"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Stacknumber" value="10"/>
