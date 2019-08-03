@@ -53,24 +53,31 @@
 				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
 				<property name="fuelKmPerL" value=".65"/>
 				<property name="gear1" value="
+								500,2500, -1400,800,0, 1500,9999,9999,
+								Vehicles/Suv/suv_accel1,
+								Vehicles/Suv/suv_decel1,
+								0, .7, 1, .1, -9, .12, .1, Vehicles/Suv/suv_idle_lp,
+								-.1, .08,  .3, .3,  0, 9, .1, Vehicles/Suv/suv_max_speed_lp
+								"/> <!--
+				<property name="gear1" value="
 									500,2500, -1400,800,0, 150,2200,900,
 								Vehicles/Suv/suv_accel1,
 								Vehicles/Suv/suv_decel1,
 								0, .7, 1, .1, -9, .12, .1, Vehicles/Suv/suv_idle_lp,
-								-.4, -.02, .7, .7, -.2, 9, .2, Vehicles/Suv/suv_max_speed_lp
-								"/><!--
+								-.4, -.02, .7, .7, -.2, 9, .2, 
+								"/> 
 			<property name="gear2" value="
 								500,2500, -2000,1000,2000, 250,2200,800,
-								Vehicles/Suv/suv_accel2,
+								Vehicles/Suv/suv_accel1,
 								Vehicles/Suv/suv_decel1,
 								-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp
-								"/>
+								"/> 
 			<property name="gear3" value="
 								500,2500, -2000,1000,2000, 300,2200,1000,
-								Vehicles/Suv/suv_accel3,
+								Vehicles/Suv/suv_accel1,
 								Vehicles/Suv/suv_decel2,
-								-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp
-								"/>
+								-.28, -.07, .3, .6, -1, 1, .1, 
+								"/> 
 			<property name="gear4" value="
 								500,2500, -2000,1000,2000, 300,9999,9999,
 								,
