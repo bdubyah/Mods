@@ -101,6 +101,7 @@
 			<ingredient name="smallEngine" count="1"/>
 	        <ingredient name="carBattery" count="1"/>
 			<ingredient name="vehicleMarauderaccessories" count="1"/>
+		</recipe>
 		
 		<recipe name="vehicleMRAPparts" count="1" craft_area="workbench" craft_time="600">
 			<ingredient name="resourceForgedSteel" count="400"/>
