@@ -1,0 +1,26 @@
+<configs>
+	<append xpath="/buffs">
+
+	<buff name="RailSpikeBuff" name_key="Spike" icon="ui_game_symbol_medical" hidden="true">
+		<damage_type value="knockdown"/>
+		<stack_type value="ignore"/>
+		<duration value="4"/>
+		<requirements compare_type="or">
+			<requirement name="NotHasBuff" buff="RailSpikeCooldownBuff"/>
+		</requirements>
+
+		<effect_group>
+			<passive_effect name="RunSpeed" operation="perc_set" value="0" />
+			<passive_effect name="WalkSpeed" operation="perc_set" value="0" />
+			<passive_effect name="CrouchSpeed" operation="perc_set" value="0" />
+			<passive_effect name="JumpStrength" operation="perc_set" value="0" />
+			
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" target="self" buff="buffInjuryBleeding,RailSpikeCooldownBuff"/>
+			<triggered_effect trigger="onSelfBuffStart" action="Ragdoll" target="self" duration="2.5"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="RailSpikeCooldownBuff" hidden="true"> <duration value="3"/> <stack_type value="ignore"/> </buff>
+	
+	</append>
+</configs>
